@@ -1,0 +1,46 @@
+.main{
+
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.main div{
+	width: 33.33%;
+	display: inline-block;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+.main div::after{
+	content: ' ';
+	clear:both;
+	display: block;
+}
+div.one{
+	background: blue;
+}
+div.two{
+	background: yellow;
+}
+div.three{
+	background: red;
+}
+div.four{
+	background: cyan;
+}
+div.five{
+	background: beige;
+}
+div.six{
+	background: orange;
+}
+div.seven{
+	background: tomato;
+}
+div.eight{
+	background: black;
+}
+div.nine{
+	background: grey;
+}
